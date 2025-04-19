@@ -41,11 +41,8 @@
   text-decoration: none;
   font-weight: bold;
 }
-a:hover {
-  width: 50px;
-  background: transparent;
-  color: #000000;
-  text-decoration: underline;
+.nav__link:hover {
+  color: #2f80ed;
 }
 
 .header__content {
@@ -81,11 +78,6 @@ a:hover {
   align-items: center;
   justify-content: flex-end;
   box-sizing: border-box;
-}
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
 }
 
 .header__address {
@@ -224,7 +216,9 @@ a:hover {
   color: #2f80ed;
   text-decoration: none;
 }
-
+.events__more:hover {
+  color: #1f1f1f;
+}
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -249,27 +243,40 @@ a:hover {
   top: -30px;
   left: 319px;
 }
-
+.person_name_feynman:hover {
+  opacity: 0.8;
+}
 .person_name_burbidge {
   top: 96px;
   right: 125px;
+}
+.person_name_burbidge:hover {
+  opacity: 0.8;
 }
 
 .person_name_cannon {
   bottom: 18px;
   right: 216px;
 }
+.person_name_cannon:hover {
+  opacity: 0.8;
+}
 
 .person_name_mitchell {
   bottom: 82px;
   left: 142px;
+}
+.person_name_mitchell:hover {
+  opacity: 0.8;
 }
 
 .person_name_tarter {
   top: 79px;
   left: 159px;
 }
-
+.person_name_tarter:hover {
+  opacity: 0.8;
+}
 .person__image {
   max-width: 100%;
 }
@@ -380,6 +387,9 @@ a:hover {
   text-decoration: none;
   align-items: center;
   column-gap: 10px;
+}
+.footer__column-link:hover {
+  color: #057bf2;
 }
 
 .footer__social-icon {
